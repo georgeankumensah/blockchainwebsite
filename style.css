@@ -149,6 +149,55 @@ nav {
 .ex-btn:hover {
   color: #fff;
 }
+/* portfolio section */
+.portfolio{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+.portfolio h1{
+    font-size: 2.5rem;
+}
+.portfolio-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+
+}
+.portfolio-col img{
+    width: 100%;
+    height: 100%;
+    border-radius: inherit ;
+}
+.layer{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.layer:hover{
+    background:rgba(3, 3, 3, 0.534);
+    transition: 0.2s;
+    cursor: pointer;
+}
+.layer a{
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+    transition: 0.5s;
+}
+.layer:hover a{
+    bottom: 45%;
+    opacity: 1;
+}
 
 /* adding media queries */
 @media (max-width: 726px) {
