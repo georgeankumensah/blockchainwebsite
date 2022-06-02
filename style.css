@@ -118,6 +118,37 @@ nav {
 .services-col h3 {
   font-size: 20px;
 }
+/* about section */
+.about-blockchain {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  margin-top: 100px;
+}
+.about-col {
+  flex-basis: 48%;
+  padding: 30px 5px;
+}
+.about-col h1 {
+  font-size: 2.5rem;
+}
+.about-col p {
+  font-size: 0.9rem;
+  color: #777;
+}
+.about-col img {
+  width: 80%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+.ex-btn {
+  border: 1px solid black;
+  margin: 10px 30px;
+  color: black;
+  transition: 0.5s;
+}
+.ex-btn:hover {
+  color: #fff;
+}
 
 /* adding media queries */
 @media (max-width: 726px) {
